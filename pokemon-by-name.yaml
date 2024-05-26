@@ -1,0 +1,304 @@
+title: pokemon-by-name
+emojis:
+  - name: bulbasaur
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/1.png
+  - name: ivysaur
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/2.png
+  - name: venusaur
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/3.png
+  - name: charmander
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/4.png
+  - name: charmeleon
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/5.png
+  - name: charizard
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/6.png
+  - name: squirtle
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/7.png
+  - name: wartortle
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/8.png
+  - name: blastoise
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/9.png
+  - name: caterpie
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/10.png
+  - name: metapod
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/11.png
+  - name: butterfree
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/12.png
+  - name: weedle
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/13.png
+  - name: kakuna
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/14.png
+  - name: beedrill
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/15.png
+  - name: pidgey
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/16.png
+  - name: pidgeotto
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/17.png
+  - name: pidgeot
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/18.png
+  - name: rattata
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/19.png
+  - name: raticate
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/20.png
+  - name: spearow
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/21.png
+  - name: fearow
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/22.png
+  - name: ekans
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/23.png
+  - name: arbok
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/24.png
+  - name: pikachu
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/25.png
+  - name: raichu
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/26.png
+  - name: sandshrew
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/27.png
+  - name: sandslash
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/28.png
+  - name: nidoran-f
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/29.png
+  - name: nidorina
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/30.png
+  - name: nidoqueen
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/31.png
+  - name: nidoran-m
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/32.png
+  - name: nidorino
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/33.png
+  - name: nidoking
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/34.png
+  - name: clefairy
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/35.png
+  - name: clefable
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/36.png
+  - name: vulpix
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/37.png
+  - name: ninetales
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/38.png
+  - name: jigglypuff
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/39.png
+  - name: wigglytuff
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/40.png
+  - name: zubat
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/41.png
+  - name: golbat
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/42.png
+  - name: oddish
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/43.png
+  - name: gloom
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/44.png
+  - name: vileplume
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/45.png
+  - name: paras
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/46.png
+  - name: parasect
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/47.png
+  - name: venonat
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/48.png
+  - name: venomoth
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/49.png
+  - name: diglett
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/50.png
+  - name: dugtrio
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/51.png
+  - name: meowth
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/52.png
+  - name: persian
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/53.png
+  - name: psyduck
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/54.png
+  - name: golduck
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/55.png
+  - name: mankey
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/56.png
+  - name: primeape
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/57.png
+  - name: growlithe
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/58.png
+  - name: arcanine
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/59.png
+  - name: poliwag
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/60.png
+  - name: poliwhirl
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/61.png
+  - name: poliwrath
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/62.png
+  - name: abra
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/63.png
+  - name: kadabra
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/64.png
+  - name: alakazam
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/65.png
+  - name: machop
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/66.png
+  - name: machoke
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/67.png
+  - name: machamp
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/68.png
+  - name: bellsprout
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/69.png
+  - name: weepinbell
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/70.png
+  - name: victreebel
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/71.png
+  - name: tentacool
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/72.png
+  - name: tentacruel
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/73.png
+  - name: geodude
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/74.png
+  - name: graveler
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/75.png
+  - name: golem
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/76.png
+  - name: ponyta
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/77.png
+  - name: rapidash
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/78.png
+  - name: slowpoke
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/79.png
+  - name: slowbro
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/80.png
+  - name: magnemite
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/81.png
+  - name: magneton
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/82.png
+  - name: farfetchd
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/83.png
+  - name: doduo
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/84.png
+  - name: dodrio
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/85.png
+  - name: seel
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/86.png
+  - name: dewgong
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/87.png
+  - name: grimer
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/88.png
+  - name: muk
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/89.png
+  - name: shellder
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/90.png
+  - name: cloyster
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/91.png
+  - name: gastly
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/92.png
+  - name: haunter
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/93.png
+  - name: gengar
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/94.png
+  - name: onix
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/95.png
+  - name: drowzee
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/96.png
+  - name: hypno
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/97.png
+  - name: krabby
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/98.png
+  - name: kingler
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/99.png
+  - name: voltorb
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/100.png
+  - name: electrode
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/101.png
+  - name: exeggcute
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/102.png
+  - name: exeggutor
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/103.png
+  - name: cubone
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/104.png
+  - name: marowak
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/105.png
+  - name: hitmonlee
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/106.png
+  - name: hitmonchan
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/107.png
+  - name: lickitung
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/108.png
+  - name: koffing
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/109.png
+  - name: weezing
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/110.png
+  - name: rhyhorn
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/111.png
+  - name: rhydon
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/112.png
+  - name: chansey
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/113.png
+  - name: tangela
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/114.png
+  - name: kangaskhan
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/115.png
+  - name: horsea
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/116.png
+  - name: seadra
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/117.png
+  - name: goldeen
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/118.png
+  - name: seaking
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/119.png
+  - name: staryu
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/120.png
+  - name: starmie
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/121.png
+  - name: mr-mime
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/122.png
+  - name: scyther
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/123.png
+  - name: jynx
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/124.png
+  - name: electabuzz
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/125.png
+  - name: magmar
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/126.png
+  - name: pinsir
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/127.png
+  - name: tauros
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/128.png
+  - name: magikarp
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/129.png
+  - name: gyarados
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/130.png
+  - name: lapras
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/131.png
+  - name: ditto
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/132.png
+  - name: eevee
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/133.png
+  - name: vaporeon
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/134.png
+  - name: jolteon
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/135.png
+  - name: flareon
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/136.png
+  - name: porygon
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/137.png
+  - name: omanyte
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/138.png
+  - name: omastar
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/139.png
+  - name: kabuto
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/140.png
+  - name: kabutops
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/141.png
+  - name: aerodactyl
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/142.png
+  - name: snorlax
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/143.png
+  - name: articuno
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/144.png
+  - name: zapdos
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/145.png
+  - name: moltres
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/146.png
+  - name: dratini
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/147.png
+  - name: dragonair
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/148.png
+  - name: dragonite
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/149.png
+  - name: mewtwo
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/150.png
+  - name: mew
+    src: https://raw.githubusercontent.com/GaLaiLapTrinh/pokemon/main/img/151.png
